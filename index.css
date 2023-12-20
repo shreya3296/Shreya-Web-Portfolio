@@ -474,7 +474,8 @@ a{
 }
 
 .item-card:hover{
-    background: var(--pink);
+    /* background: rgb(149, 147, 147); */
+    background: #5a111f;
     transition: 0.15s ease;
 }
 
