@@ -55,7 +55,7 @@
 }
 
 html {
-    font-size: 62.5%; /* (16/10)*100 = 62.5% => 1rem = 10px */
+    font-size: 67.5%; /* (16/10)*100 = 62.5% => 1rem = 10px */
     box-sizing: border-box;
     scroll-behavior: smooth;
 }
@@ -446,7 +446,7 @@ body:not(.user-is-tabbing) a:focus {
 
 .item-card-grid {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     justify-content: space-between;
     gap: var(--gutter-normal);
     /* filter: invert(100%) grayscale(100%) opacity(.8); */
