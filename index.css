@@ -25,7 +25,7 @@
 :root {
     --font-size-small: 1.8rem;
     --font-size-normal: 2.2rem;
-    --font-size-medium: 2.8rem;
+    --font-size-medium: 2.4rem;
     --font-size-medium-1: 3.6rem;
     --font-size-large: 5.5rem;
     --font-size-huge: 7.5rem;
@@ -483,6 +483,7 @@ a{
     font-size: var(--font-size-medium);
     margin: 0;
     transition: 0.1s;
+    font-weight: bold;
 }
 
 .item-card:hover > .item-card-title{
